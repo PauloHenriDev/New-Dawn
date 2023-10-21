@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: flex;
+}
+
+main div {
+    width: 100%;
+    height: 100%;
+}
+
+main img { /* ajeitar a imagem do DS1 pq tem uma margin nela */
+    width: 100%;
+    height: 100vh;
+}
