@@ -211,3 +211,8 @@ body {
 .sidebar.collapsed .sidebar-menu {
     padding: 5px;
 }
+
+.conteudo {
+    position: relative;
+    left: 270px;
+}
