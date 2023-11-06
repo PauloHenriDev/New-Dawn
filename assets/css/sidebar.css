@@ -12,6 +12,7 @@ body {
     width: 250px;
     height: 100%;
     gap: 2.5%;
+    transition: all 0.5s ease;
 }
 
 .sidebar a {
@@ -20,6 +21,7 @@ body {
 
 .sidebar .logo-rpg {
     width: 250px;
+    transition: all 0.28s ease;
 }
 
 .sidebar .nome-rpg {
@@ -37,6 +39,7 @@ body {
     border-radius: 50%;
     color: var(--paulo-three-lords-color-toggle);
     background: var(--paulo-three-lords-background-toggle);
+    transform: rotate(180deg);
 }
 
 .sidebar-menu {
@@ -154,6 +157,10 @@ body {
     width: 100px;
 }
 
+.sidebar.collapsed .toggle{
+    transform: rotate(0deg);
+}
+
 .sidebar.collapsed .menu-links .menu-nav a,
 .sidebar.collapsed .sidebar-search {
     justify-content: center; 
@@ -212,7 +219,6 @@ body {
     padding: 5px;
 }
 
-.conteudo {
-    position: relative;
-    left: 270px;
+.sidebar.collapsed .toggle {
+    left: 90%;
 }

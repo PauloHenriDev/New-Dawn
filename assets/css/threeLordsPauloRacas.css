@@ -1,0 +1,18 @@
+.conteudo {
+    background: var(--paulo-three-lords-raca-background-body);
+}
+
+.conteudo .sessoes {
+    display: flex;
+    flex-direction: column;
+    gap: 12%;
+}
+
+.conteudo .sessoes h3 {
+    width: 45%;
+    border-bottom: 1px solid black;
+}
+
+.conteudo .sessoes p {
+    width: 46%;
+}
